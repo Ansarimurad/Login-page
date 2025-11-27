@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Martel+Sans:wght@600&family=Mozilla+Headline:wght@200..700&family=Playwrite+IN&family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Balsamiq Sans", sans-serif;
+     text-decoration: none;
+     list-style: none;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background: linear-gradient(90deg, cyan , pink);
+}
+
+.container{
+    position: relative;
+    width: 850px;
+    height: 550px;
+    background: #fff;
+    border-radius: 30px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.container h1{
+    font-size: 36px;
+    margin: -10px 0;
+}
+.container p{
+    margin: 15px 0 ;
+    font-size: 16px;
+    color: #666;
+}
+
+.form{  
+    width: 100%;
+}
+
+.form-box{
+    position: absolute;
+    right:0px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    z-index: 1;
+    transition:0.6 ease-in-out 1.2;
+    background-color: aqua;
+}
+.form-box-register{
+margin-top: -50px;
+    background-color: pink;
+
+
+}
